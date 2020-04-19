@@ -1,1 +1,161 @@
 /* Add CSS styling here */
+
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%; 
+    background-color: thistle;
+  }
+
+h1, h2, h3, h4{
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing:3px;
+    padding:4% 0;
+  }
+  section{
+    padding:4% 0;
+  }
+  i{
+    font-size:4rem;
+  }
+  
+
+
+
+  header{
+    height:90vh;
+    background-color:#a89cc8;
+  }
+
+  header nav{
+    width:100%;
+    background-color:#9bb2e1;
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  .logo{
+    width:20%;
+  }
+  .logo img{
+    max-width:100%;
+  }
+  .links{
+    width:60%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+  }
+  nav a{
+    color:#a89cc8;
+    text-decoration:none;
+    letter-spacing:3px;
+  }
+  nav a:hover{
+    color:#9bb2e1;;
+  }
+
+
+
+  .title-container{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#000000;
+    background-color: #c79cc8;
+  }
+  .main-titles{
+    text-align:center;
+    width:80%;
+    background-color:#9bb2e1;
+  }
+
+
+
+
+  #about{
+    background-color:#c79cc8;
+    display:flex;
+    justify-content:center;
+  }
+  
+  #about .text{
+    background-color:#a89cc8;
+    padding:4%;
+    text-align:center;
+    width:80%;
+  }
+  .text p{
+    text-align:justify;
+  }
+
+
+
+  #projects{
+    background-color:#a89cc8;
+  }
+  #projects h2{
+    text-align:center;
+    padding:3% 0;
+  }
+  .contanier{
+    display:flex;
+    justify-content:space-around;
+  }
+  #skills .contanier div{
+    text-align:center;
+    width:28%;
+  }
+  #skills .contanier div p{
+    text-align:justify;
+  }
+  
+
+
+  footer{
+    background-color:#E0FFFF;
+    padding: 3% 0;
+    text-align:center;
+  }
+  footer div{
+    display:flex;
+    justify-content:center;
+  }
+  form{
+    width:80%;
+  }
+  input, label, textarea{
+    width:100%;
+    margin:4% 0;
+  }
+  input, textarea{
+    border:none;
+    border-bottom:3px solid #c79cc8;;
+    background-color:#E0FFFF;
+  }
+  footer nav{
+    width:80%;
+    display:flex;
+    justify-content:space-evenly;
+    
+  }
+  footer nav:hover{
+    color:#fde769;
+  }
+  button{
+    width:100%;
+    background-color:#c79cc8;;
+    color:#000000;
+    padding: 2% 0;
+    border:2px solid #9bb2e1;
+;
+    margin-bottom:3%;
+  }
+  button:hover{
+    background-color:#9bb2e1;;
+    color:lavender;
+    border: 2px solid #c79cc8;
+  }
